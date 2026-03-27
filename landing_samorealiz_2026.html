@@ -374,12 +374,24 @@ footer a{color:var(--gold);text-decoration:none}
 <!-- HERO -->
 <section class="hero">
   <!-- Lotus SVG symbol -->
-  <svg class="hero-lotus" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M50 80 C50 80 20 65 20 45 C20 35 30 28 40 32 C35 22 45 15 50 15 C55 15 65 22 60 32 C70 28 80 35 80 45 C80 65 50 80 50 80Z" stroke="#c9a84c" stroke-width="1.5" fill="none"/>
-    <path d="M50 80 C50 80 35 60 35 45 C35 38 42 34 47 37 C45 30 50 25 50 25 C50 25 55 30 53 37 C58 34 65 38 65 45 C65 60 50 80 50 80Z" stroke="#c9a84c" stroke-width="1" fill="rgba(201,168,76,0.12)"/>
-    <line x1="50" y1="80" x2="50" y2="92" stroke="#c9a84c" stroke-width="1.2"/>
-    <path d="M35 90 Q50 85 65 90" stroke="#c9a84c" stroke-width="1" fill="none"/>
-  </svg>
+  <svg style="display: none;">
+  <symbol id="logo-tochka-zbirky" viewBox="0 0 1000 1000">
+    <path fill="url(#gold-gradient)" d="...копіюєте вміст вашого файлу сюди..." />
+    
+    <defs>
+      <linearGradient id="gold-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#D4AF37;stop-opacity:1" />
+        <stop offset="50%" style="stop-color:#F9E27E;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#B8860B;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+  </symbol>
+</svg>
+
+<svg width="150" height="150">
+  <use xlink:href="#logo-tochka-zbirky"></use>
+</svg>
+
 
   <div class="hero-eyebrow">Авторський трансформаційний курс · Старт 14.04.2026</div>
   <h1>САМОРЕАЛІЗАЦІЯ:<br>НОВИЙ РІВЕНЬ<br>СВІДОМОСТІ</h1>
@@ -397,22 +409,22 @@ footer a{color:var(--gold);text-decoration:none}
     <div class="divider"></div>
     <div class="pain-grid">
       <div class="pain-card">
-        <div class="pain-icon">🌱</div>
+        <div class="pain-icon"></div>
         <h3>Є потенціал — немає форми</h3>
         <p>Відчуваєш в собі ідею, талант або проект, але не знаєш, як перевести це у реальність.</p>
       </div>
       <div class="pain-card">
-        <div class="pain-icon">🔍</div>
+        <div class="pain-icon"></div>
         <h3>Шукаєш свій шлях</h3>
         <p>Шукаєш форму проявлення у новому світі, де старі моделі реалізації перестають працювати.</p>
       </div>
       <div class="pain-card">
-        <div class="pain-icon">⚡</div>
+        <div class="pain-icon"></div>
         <h3>Стан і результат</h3>
         <p>Хочеш поєднати духовний шлях та матеріальний результат — енергію і реальні інструменти.</p>
       </div>
       <div class="pain-card">
-        <div class="pain-icon">🌐</div>
+        <div class="pain-icon"></div>
         <h3>Проявлення у світі</h3>
         <p>Готовий використовувати сучасні AI-інструменти та соціальні мережі для розвитку свого проєкту.</p>
       </div>
@@ -469,22 +481,22 @@ footer a{color:var(--gold);text-decoration:none}
     <div class="divider"></div>
     <div class="get-grid">
       <div class="get-card">
-        <span class="get-icon">🔓</span>
+        <span class="get-icon"></span>
         <h3>Розблокування</h3>
         <p>Побачите внутрішні блоки та програми, які стримують ріст і реалізацію.</p>
       </div>
       <div class="get-card">
-        <span class="get-icon">🧭</span>
+        <span class="get-icon"></span>
         <h3>Новий вектор</h3>
         <p>Зрозумієте, чому звичні стратегії більше не дають результату і отримаєте новий курс.</p>
       </div>
       <div class="get-card">
-        <span class="get-icon">🛠</span>
+        <span class="get-icon"></span>
         <h3>Практичні інструменти</h3>
         <p>Конкретні інструменти переходу в новий рівень реалізації та AI-автоматизація.</p>
       </div>
       <div class="get-card">
-        <span class="get-icon">✨</span>
+        <span class="get-icon"></span>
         <h3>Стан потоку</h3>
         <p>Відчуєте стан, з якого гроші, можливості і проявленість починають відкриватися природно.</p>
       </div>
@@ -542,11 +554,11 @@ footer a{color:var(--gold);text-decoration:none}
     <div class="divider"></div>
 
     <div style="display:flex;flex-wrap:wrap;gap:16px;justify-content:center;margin:40px 0 52px">
-      <span class="tag" style="font-size:13px;padding:10px 22px">📅 Тривалість: 1,5 місяці</span>
-      <span class="tag" style="font-size:13px;padding:10px 22px">🎓 6 занять (щотижня)</span>
-      <span class="tag" style="font-size:13px;padding:10px 22px">🔬 2 практичні зустрічі</span>
-      <span class="tag" style="font-size:13px;padding:10px 22px">🧘 Медитації</span>
-      <span class="tag" style="font-size:13px;padding:10px 22px">💡 Брейнштормінги</span>
+      <span class="tag" style="font-size:13px;padding:10px 22px"> Тривалість: 1,5 місяці</span>
+      <span class="tag" style="font-size:13px;padding:10px 22px"> 6 занять (щотижня)</span>
+      <span class="tag" style="font-size:13px;padding:10px 22px"> 2 практичні зустрічі</span>
+      <span class="tag" style="font-size:13px;padding:10px 22px"> Медитації</span>
+      <span class="tag" style="font-size:13px;padding:10px 22px"> Брейнштормінги</span>
     </div>
 
     <div class="modules">
